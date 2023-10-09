@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f" ᴍᴜsɪᴄ  \n\n ɪᴅ : `{BOT_ID}`\n ɴᴀᴍᴇ : {BOT_NAME}\n ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -68,7 +68,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f" ᴍᴜsɪᴄ  \n\n ɪᴅ : `{ASS_ID}`\n ɴᴀᴍᴇ : {ASS_NAME}\n ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
